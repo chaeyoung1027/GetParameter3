@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form method="post" action="/login">
+  ID<br/> <input type="text" placeholder="id" name="user_id">
+  <br/>
+  Password<br/> <input type = "password" placeholder="password" name="user_pass">
+    <br/>
+  Name<br/> <input type="text" placeholder="name" name = "user_name">
+    <br/>
+    Email<br/> <input type = "email" placeholder="email" name = "user_mail">
+    <br/>
+    Tel<br/> <input type = "tel" placeholder="tel" name = "user_tel">
+    <br/>
+    Local
+    <select name = "user_local">
+      <option value="seoul">서울</option>
+      <option value="busan">부산</option>
+      <option value="jeju">제주</option>
+    </select>
+  <br/>
+    <button type = "submit">입력 완료</button>
+</form>
+
+</body>
+</html>
